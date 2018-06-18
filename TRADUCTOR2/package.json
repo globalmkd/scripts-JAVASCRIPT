@@ -1,0 +1,31 @@
+{
+  "name": "traductor2",
+  "version": "0.1.0",
+  "description": "idioma nuevo",
+  "main": "dist/src/traductor.js",
+  "scripts": {
+    "build": "babel src/traductor.js -d dist",
+    "test":"mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globalmkd/scripts-JAVASCRIPT.git"
+  },
+  "keywords": [
+    "traductor",
+    "nuevo",
+    "idioma"
+  ],
+  "author": "jaume carreras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/globalmkd/scripts-JAVASCRIPT/issues"
+  },
+  "homepage": "https://github.com/globalmkd/scripts-JAVASCRIPT#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
