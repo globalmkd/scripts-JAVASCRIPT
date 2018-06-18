@@ -6,7 +6,8 @@ function fibonacci() {
 	return {
 		next: function (){
 			let f = a
-			a = bb = f + a
+			a = b
+			b = f + a
 
 			return {value: f, done: false};
 		}
@@ -33,4 +34,3 @@ fibo.next().value;
 fibo.next().value;
 fibo.next().value;
 
-console.log
